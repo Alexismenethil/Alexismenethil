@@ -1,16 +1,77 @@
-## Hi there 👋
+<h1 align="center">Hola 👋, Soy Alexis</h1>
+<h3 align="center">Futuro Ingeniero de TI y Diseñador de Software | Creador de HASS-STUDIO</h3>
 
-<!--
-**Alexismenethil/Alexismenethil** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="left">
+  <a href="https://linkedin.com/in/tu-usuario-de-linkedin" target="_blank">
+    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="30" width="40" />
+  </a>
+</p>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 👨‍💻 Sobre Mí:
+
+- 🔭 Actualmente estoy dando vida a **HASS-STUDIO**, mi estudio enfocado en el diseño y desarrollo de tecnología de vanguardia (Web, Móvil y Soluciones Cloud).
+- 🌱 Para dominar el espectro de TI y Diseño, estoy aprendiendo **React.js, Node.js, Diseño UI/UX con Figma, Docker y Arquitectura Cloud en AWS**.
+- 👯 Busco colaborar en **proyectos que fusionen una infraestructura de TI sólida con un diseño de interfaz (UI/UX) excepcional**.
+- 💬 Pregúntame sobre mis lenguajes base: **Python, Java, SQL Server y JavaScript**.
+- 📫 Contáctame para discutir ideas o proyectos: **alexishr005@gmail.com**
+
+---
+
+### 🛠️ Mi Stack Tecnológico como Diseñador de Software:
+
+* **Frontend & Diseño (UI/UX)**
+    <p align="left">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+      </a>
+      <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> 
+      </a>
+      <a href="https://www.figma.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> 
+      </a>
+      <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> 
+      </a>
+    </p>
+* **Backend & Bases de Datos**
+    <p align="left">
+      <a href="https://www.python.org" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
+      </a>
+      <a href="https://www.java.com" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/>
+      </a>
+       <a href="https://nodejs.org" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> 
+      </a>
+      <a href="https://www.microsoft.com/es-es/sql-server" target="_blank" rel="noreferrer"> 
+        <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> 
+      </a>
+    </p>
+* **Infraestructura & DevOps (TI)**
+    <p align="left">
+      <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> 
+      </a>
+      <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/>
+      </a>
+      <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/>
+      </a>
+    </p>
+
+---
+
+### 📊 Mis Estadísticas de GitHub:
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Alexismenethil&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="Estadísticas de GitHub de Alexis" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alexismenethil&layout=compact&theme=dracula" alt="Lenguajes más usados por Alexis" />
+</p>
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alexismenethil&theme=dracula" alt="Racha de Contribuciones de Alexis" />
+</p>
