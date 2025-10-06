@@ -322,7 +322,8 @@ Transformar ideas en experiencias digitales memorables mediante la convergencia 
 
 ## 💭 **MI FILOSOFÍA DE DESARROLLO**
 
-<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=El%20mejor%20c%C3%B3digo%20es%20el%20que%20resuelve%20problemas%20reales%20con%20una%20interfaz%20que%20enamora&author=Alexis%20|%20HASS-STUDIO" alt="Quote"/>
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&quote=En%20HASS%20STUDIO%20creemos%20que%20la%20innovaci%C3%B3n%20nace%20cuando%20la%20tecnolog%C3%ADa%20resuelve%20y%20el%20dise%C3%B1o%20emociona.&author=Alexis%20" alt="Quote"/>
+
 
 </div>
 
