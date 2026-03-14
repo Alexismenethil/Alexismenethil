@@ -1,4 +1,4 @@
-name: Generate GitHub Snake
+name: Generate Premium Snake Animation
 
 on:
   schedule:
@@ -9,14 +9,14 @@ on:
       - main
     paths-ignore:
       - "dist/**"
-      - "output/**"
 
 concurrency:
-  group: github-snake
+  group: snake-animation
   cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
   generate:
@@ -29,17 +29,17 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate Snake Animation
+      - name: Generate Custom Brand Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#000000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00ff9f&color_dots=#0d1117,#002233,#005577,#0099cc,#00d4ff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push Snake to Output Branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
