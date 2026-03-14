@@ -122,7 +122,7 @@ Mi trabajo se centra en diseñar **sistemas escalables**, plataformas digitales 
 
 <a href="mailto:alexishr005@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00d4ff&v=2" alt="Email"/></a>
 <a href="https://wa.me/51917785052"><img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=00d4ff&v=2" alt="WhatsApp"/></a>
-<a href="https://www.linkedin.com/in/tu-usuario-de-linkedin"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00d4ff&v=2" alt="LinkedIn"/></a>
+<a href="https://www.linkedin.com/in/alexis-huaman%C3%AD-rivera-67a891274/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00d4ff&v=2" alt="LinkedIn"/></a>
 
 <br><br>
 
