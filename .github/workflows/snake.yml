@@ -2,41 +2,46 @@ name: Generate Premium Snake Animation
 
 on:
   schedule:
-    # Se ejecuta automáticamente cada 12 horas para mantener la gráfica siempre fresca
     - cron: "0 */12 * * *"
-  workflow_dispatch: # Permite ejecución manual
+  workflow_dispatch:
   push:
     branches:
-    - main
+      - main
+    paths-ignore:
+      - "dist/**"
+
+concurrency:
+  group: snake-animation
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+  pages: write
 
 jobs:
   generate:
-    permissions: 
-      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 5
-    
+
     steps:
-      # Actualizado a v4 para eliminar el warning de Node.js 20
-      - name: Checkout repo
+
+      - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
 
       - name: Generate Custom Brand Snake
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-          # 🎨 MODO DISEÑADOR ACTIVADO: 
-          # Línea 1 (Claro): Colores estándar para quien no use modo oscuro.
-          # Línea 2 (Oscuro): Tu paleta HASS-STUDIO. Fondo oscuro puro, degradado Cian, Serpiente Neón.
           outputs: |
             dist/github-contribution-grid-snake.svg?color_snake=#000000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00ff9f&color_dots=#0d1117,#003b5c,#007a99,#00b8d4,#00d4ff
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#00ff9f&color_dots=#0d1117,#002233,#005577,#0099cc,#00d4ff
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # Actualizado a v4 para despliegue moderno y limpio
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v4.0.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
