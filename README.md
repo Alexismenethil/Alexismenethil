@@ -120,9 +120,32 @@ Mi trabajo se centra en diseñar **sistemas escalables**, plataformas digitales 
 
 <br>
 
-<a href="mailto:alexishr005@gmail.com"><img src="https://img.shields.io/badge/Email-000000?style=for-the-badge&logo=gmail&logoColor=00d4ff&v=2" alt="Email"/></a>
-<a href="https://wa.me/51917785052"><img src="https://img.shields.io/badge/WhatsApp-000000?style=for-the-badge&logo=whatsapp&logoColor=00d4ff&v=2" alt="WhatsApp"/></a>
-<a href="https://www.linkedin.com/in/alexis-huaman%C3%AD-rivera-67a891274/"><img src="https://img.shields.io/badge/LinkedIn-000000?style=for-the-badge&logo=linkedin&logoColor=00d4ff&v=2" alt="LinkedIn"/></a>
+<table align="center" style="border: none;">
+<tr style="border: none;">
+
+<td align="center" width="33%" style="border: none;">
+  <a href="mailto:alexishr005@gmail.com" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/60/00d4ff/gmail-new.png" alt="Email"/><br><br>
+    <sub style="color: #8b949e;">alexishr005@gmail.com</sub>
+  </a>
+</td>
+
+<td align="center" width="33%" style="border: none;">
+  <a href="https://wa.me/51917785052" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/60/00d4ff/whatsapp--v1.png" alt="WhatsApp"/><br><br>
+    <sub style="color: #8b949e;">+51 917 785 052</sub>
+  </a>
+</td>
+
+<td align="center" width="33%" style="border: none;">
+  <a href="https://www.linkedin.com/in/tu-usuario-de-linkedin" style="text-decoration: none;">
+    <img src="https://img.icons8.com/ios-filled/60/00d4ff/linkedin.png" alt="LinkedIn"/><br><br>
+    <sub style="color: #8b949e;">LinkedIn Profile</sub>
+  </a>
+</td>
+
+</tr>
+</table>
 
 <br><br>
 
