@@ -1,7 +1,8 @@
-name: Generate Premium Snake Animation
+name: Generate GitHub Snake
 
 on:
   schedule:
+    # actualiza cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -9,11 +10,14 @@ on:
       - main
     paths-ignore:
       - "dist/**"
+      - "output/**"
 
+# evita ejecuciones duplicadas
 concurrency:
-  group: snake-animation
+  group: github-snake
   cancel-in-progress: true
 
+# permisos mínimos recomendados (contents: write es suficiente para empujar a rama output)
 permissions:
   contents: write
 
@@ -28,17 +32,19 @@ jobs:
         with:
           fetch-depth: 1
 
-      - name: Generate Custom Brand Snake
+      - name: Generate Snake Animation
+        # 🔥 REVERSIÓN DE DISEÑO A PETICIÓN: Forzamos el diseño clásico de puntos verdes
+        # para ambos archivos, independientemente del modo de perfil del usuario.
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#000000&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#00ff9f&color_dots=#0d1117,#002233,#005577,#0099cc,#00d4ff
+            dist/github-contribution-grid-snake.svg?color_snake=#000000&color_dots=#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127
+            dist/github-contribution-grid-snake-dark.svg?color_snake=#000000&color_dots=#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Push to output branch
+      - name: Push Snake to Output Branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
