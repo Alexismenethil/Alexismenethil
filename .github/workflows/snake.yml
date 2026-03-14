@@ -2,7 +2,6 @@ name: Generate GitHub Snake
 
 on:
   schedule:
-    # actualiza cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
   push:
@@ -12,12 +11,10 @@ on:
       - "dist/**"
       - "output/**"
 
-# evita ejecuciones duplicadas
 concurrency:
   group: github-snake
   cancel-in-progress: true
 
-# permisos mínimos recomendados (contents: write es suficiente para empujar a rama output)
 permissions:
   contents: write
 
@@ -33,14 +30,12 @@ jobs:
           fetch-depth: 1
 
       - name: Generate Snake Animation
-        # 🔥 REVERSIÓN DE DISEÑO A PETICIÓN: Forzamos el diseño clásico de puntos verdes
-        # para ambos archivos, independientemente del modo de perfil del usuario.
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-contribution-grid-snake.svg?color_snake=#000000&color_dots=#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127
-            dist/github-contribution-grid-snake-dark.svg?color_snake=#000000&color_dots=#ebedf0,#c6e48b,#7bc96f,#239a3b,#196127
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
